@@ -6,6 +6,12 @@
   ],
   "plugins": [
     [
+      "@babel/plugin-transform-for-of",
+      {
+        "loose": true
+      }
+    ],
+    [
       "@babel/plugin-proposal-object-rest-spread",
       {
         "loose": true
